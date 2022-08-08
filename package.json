@@ -1,0 +1,24 @@
+{
+  "name": "jsmp-infra-volodymyr-smoliar-array-chunker",
+  "version": "1.0.0",
+  "description": "tiny function to chunk array",
+  "types": "lib/index.d.ts",
+  "main": "lib/index",
+  "scripts": {
+    "clean": "rimraf lib",
+    "compile": "npm run clean && tsc",
+    "test:unit": "npm run compile && jest"
+  },
+  "keywords": [
+    "utils",
+    "arrays",
+    "chunks"
+  ],
+  "author": "Volodymyr Smoliar",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.6.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.7.4"
+  }
+}
